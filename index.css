@@ -1,10 +1,11 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: #91a5ff;
 }
 
 .score {
-    background: #0a0001;
+    background: #190003;
     font-size: 90px;
     color: #F94F6D;
     width: 120px;
@@ -18,4 +19,6 @@ body {
 
 button {
     background: none;
+    border-radius: 5px;
+    border-style: double;
 }
