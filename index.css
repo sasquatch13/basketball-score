@@ -1,13 +1,27 @@
+@font-face {
+    font-family: score;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
 body {
     margin: 0;
     text-align: center;
-    background-color: #91a5ff;
+
 }
 
+.container{
+    width: 400px;
+    background-color: #3e4d3e;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid  #190003;
+    border-radius: 10px;
+}
 .score {
     background: #190003;
     font-size: 90px;
-    font-family: 'Cursed Timer ULiL';
+    font-family: score;
     color: #F94F6D;
     width: 120px;
     margin: 20px;
@@ -20,6 +34,9 @@ body {
 
 button {
     background: none;
-    border-radius: 5px;
-    border-style: double;
+    border-radius: 50%;
+    border-style: 1px solid black;
+    font-family: score;
+    color: #F94F6D;
+    margin-right: 5px;
 }
